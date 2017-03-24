@@ -15,16 +15,16 @@ var GAME_CONTAINER_ID = 'gameDiv';
 
 //This is the object which runs the game.
 function preload(){
-	game.load.image ('obstacle', 'assets/wallVertical.png');
-	game.load.image ('ground', 'assets/ground.jpg');
-	game.load.image ('background', 'assets/SpongeWood.jpg');
+	game.load.image ('obstacle', 'assets/Plankton.png');
+	game.load.image ('ground', 'assets/wallHorizontal.png');
+	game.load.image ('background', 'assets/hahaha.png');
 	//game.stage.backgroundColor = '#41e5ff'
 	game.load.image ('player', 'assets/Sponge.png') 
 };
 
 function create(){
   //player.body.immovable = true;
-game.add.tileSprite(0, 0, GAME_WIDTH, GAME_HEIGHT, 'background');
+  game.add.tileSprite(0, 0, GAME_WIDTH, GAME_HEIGHT, 'background');
   game.physics.startSystem(Phaser.Physics.ARCADE);
   //This creates the player character at the bottom left side o fthe screen.
   player = game.add.sprite(game.width/8, game.world.height*(5/9), 'player')
