@@ -15,7 +15,7 @@ var GAME_CONTAINER_ID = 'gameDiv';
 
 //This is the object which runs the game.
 function preload(){
-	game.load.image ('obstacle', 'assets/wallVertical.png');
+	game.load.image ('obstacle', 'assets/Plankton.png');
 	game.load.image ('ground', 'assets/wallHorizontal.png');
 	game.load.image ('background', 'assets/hahaha.png');
 	//game.stage.backgroundColor = '#41e5ff'
